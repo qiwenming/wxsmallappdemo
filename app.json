@@ -16,7 +16,7 @@
     "pages/component/map/map",
 
     "pages/api/api",
-    "pages/api/request/request"
+    "pages/api/net/request/request"
   ],
   "window":{
     "backgroundTextStyle":"light",

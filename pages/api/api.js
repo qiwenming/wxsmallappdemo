@@ -1,7 +1,13 @@
 Page({
   data:{
     items:[
-        {title:"request",url:'./request/request'}
+        {
+          id:0,
+          title:"网络API列表",
+          apis:[
+              {apititle:'request',url:'xxxxx'}
+            ]
+        }
     ]
   },
   bindTap:function(event){
