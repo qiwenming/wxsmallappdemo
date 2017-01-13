@@ -7,7 +7,8 @@ Page({
         {title:"progress",url:'./progress/progress'},
         {title:"picker",url:'./picker/picker'},
         {title:"navigator",url:'./navigator/navigator'},
-        {title:"map",url:'./map/map'}
+        {title:"map",url:'./map/map'},
+        {title:"xxxxx",url:'./xxxx/xxxx'},
     ]
   },
   bindTap:function(event){

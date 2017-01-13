@@ -1,0 +1,6 @@
+
+<button bindtap="request">请求试试</button>
+
+<view>
+  {{response}}
+</view>

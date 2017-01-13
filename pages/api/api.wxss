@@ -1,0 +1,10 @@
+/* pages/api/api.wxss */
+button{
+    margin-bottom: 20rpx;
+    color: white;
+    background-color: #10AEFF;
+}
+
+:nth-child(2n+1){
+    background-color: #099907;
+}

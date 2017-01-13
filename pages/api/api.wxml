@@ -1,0 +1,5 @@
+<template name="viewItem">
+  <button bindtap="bindTap" data-url="{{url}}">{{title}}</button>
+</template>
+ 
+<template wx:for="{{items}}" is="viewItem" data="{{...item}}"></template>

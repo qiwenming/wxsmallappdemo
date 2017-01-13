@@ -13,7 +13,10 @@
     "pages/component/progress/progress",
     "pages/component/picker/picker",
     "pages/component/navigator/navigator",
-    "pages/component/map/map"
+    "pages/component/map/map",
+
+    "pages/api/api",
+    "pages/api/request/request"
   ],
   "window":{
     "backgroundTextStyle":"light",
