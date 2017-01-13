@@ -1,0 +1,27 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+   interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" indicator-color="red">
+  <block wx:for="{{imgUrls}}">
+     <swiper-item>
+        <image src="{{item}}" class="swiper-item"></image>
+     </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="indicatorDotsSwitch">
+   <switch checked="{{indicatorDots}}" bindchange="indicatorDotsChange"/> indicatorDots
+</view>
+
+<view class="autoplaySwitch">
+   <switch checked="{{autoplay}}" bindchange="autoplayChange" type="checkbox"/> autoplay
+</view>
+
+<view class="circularSwitch">
+   <switch  checked="{{circular}}"  bindchange="circularChange" color="red"/> circular
+</view>
+
+interval
+<slider show-value min="500" max="10000" step="100" bindchange="intervalChange"/>
+
+duration
+<slider show-value min="100" max="5000" step="100" bindchange="durationChange"/>

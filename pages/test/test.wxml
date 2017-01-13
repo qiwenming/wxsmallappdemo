@@ -1,0 +1,32 @@
+<!--<view><button bindtap="bindViewTap">click me</button></view>
+<view>{{text}}</view>
+<view>{{myStr}}</view>
+<view>{{clickCount}}</view>
+<view wx:for="{{list}}">{{item}}</view>-->
+
+<!--wxml-->
+<!--<template name="staffName">
+  <view>
+    FirstName: {{firstName}}, LastName: {{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}}*{{j}}={{i*j}}
+    </view>
+  </view>
+</view>-->
+
+<template name="xm">
+  <view> {{name}}   {{age}}   {{time}}</view>
+</template>
+
+<block wx:for="{{temlpateData}}">
+    <template is="xm" data="{{...item}}"></template>
+</block>

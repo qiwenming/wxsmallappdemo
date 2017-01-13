@@ -1,0 +1,11 @@
+<navigator url="../view/view" open-type="navigate">
+   <button>navigate---- </button>
+</navigator>
+
+<navigator url="../view/view" open-type="redirect">
+   <button>redirect---- </button>
+</navigator>
+
+<navigator url="../view/view" open-type="switchTab">
+   <button>switchTab---- </button>
+</navigator>

@@ -1,0 +1,23 @@
+Page({
+  data:{
+    index:0,
+    countrys:['中国','日本','韩国','US'],
+    time:'09:00',
+    date:'2014-12-12'
+  },
+  selectorChange:function(e){
+      this.setData({
+          index:e.detail['value']
+      })
+    },
+    timeChange:function(e){
+      this.setData({
+          time:e.detail['value']
+      })
+    },
+    dateChange:function(e){
+      this.setData({
+          date:e.detail['value']
+      })
+    }
+})

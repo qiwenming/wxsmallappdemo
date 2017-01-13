@@ -1,0 +1,34 @@
+<view bindtap="bindTap">
+ <button>click me</button>
+</view>
+
+冒泡事件
+<view class="outview" bindtap="bindTap1">
+    外部的view
+    <view class="middleView"  bindtap="bindTap2">
+        中间的view
+        <view class="innerView"  bindtap="bindTap3">
+        内部的view
+        </view>
+    </view>
+</view>
+
+
+
+非冒泡事件
+<view class="outview" bindtap="bindTap1">
+    外部的view
+    <view class="middleView"  catchtap="catchTap2">
+        中间的view
+        <view class="innerView"  bindtap="bindTap3">
+        内部的view
+        </view>
+    </view>
+</view>
+
+<view class="testView"
+ bindtouchstart="touchstart" 
+ bindtouchmove="touchmove" 
+ bindtouchend="touchend"
+ bindtouchcancel="touchcancel"
+ ></view>

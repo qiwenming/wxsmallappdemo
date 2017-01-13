@@ -1,0 +1,24 @@
+/* pages/eventdemo/eventdemo.wxss */
+.outview{
+   background-color:azure;
+   border: 2px solid red;
+   padding: 10px;
+}
+
+.middleView{
+   background-color:antiquewhite;
+   border: 2px solid red;
+   padding: 10px;
+}
+
+.innerView{
+   background-color:darkgray;
+   border: 2px solid red;
+   padding: 10px;
+}
+
+.testView{
+    background-color:violet;
+    width: 100%;
+    height: 300px;
+}

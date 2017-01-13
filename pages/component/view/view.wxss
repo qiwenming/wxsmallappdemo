@@ -1,0 +1,46 @@
+
+.select{
+  background-color: #dddddd;
+}
+
+.select-title{
+  padding-top: 30px;
+}
+
+.flex-wrp{
+  height: 100px;
+  display:flex;
+  background-color: #FFFFFF;
+}
+.flex-item{
+  width: 100px;
+  height: 100px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row{
+  flex-direction:row;
+}
+.flex-column{
+  flex-direction:column;
+  height: 300px;
+}
+
+.bc-green{
+    background-color: #09BB07;
+}
+.bc-red{
+    background-color: #F76260;
+}
+.bc-blue{
+    background-color: #10AEFF;
+}
+.bc-yellow{
+    background-color: #FFBE00;
+}
+.bc-gray{
+    background-color: #C9C9C9;
+}

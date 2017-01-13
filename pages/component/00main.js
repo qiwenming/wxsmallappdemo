@@ -1,0 +1,19 @@
+Page({
+  data:{
+    items:[
+        {title:"view",url:'./view/view'},
+        {title:"swiper",url:'./swiper/swiper'},
+        {title:"icon",url:'./icon/icon'},
+        {title:"progress",url:'./progress/progress'},
+        {title:"picker",url:'./picker/picker'},
+        {title:"navigator",url:'./navigator/navigator'},
+        {title:"map",url:'./map/map'}
+    ]
+  },
+  bindTap:function(event){
+    console.log();
+    wx.navigateTo({
+      url: event.currentTarget.dataset['url']
+    })
+  }
+})

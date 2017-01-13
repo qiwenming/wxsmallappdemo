@@ -1,0 +1,30 @@
+<progress percent="{{percent}}" show-info="{showInfo}" active="activie"
+  stroke-width="{{strokeWidth}}" color="{{color}}"/>
+
+  percent
+  <view>
+    <slider show-value min="0" max="100" step="1" bindchange="percentChange"/>
+  </view>
+
+  show-info
+   <view>
+  <switch type="switch" bindchange="showInfoChange" />
+  </view>
+
+  active
+   <view>
+  <switch type="switch" bindchange="activeChange" />
+  </view>
+
+  stroke-width
+   <view>
+  <slider show-value min="1" max="100" step="1" bindchange="strokeWidthChange"/>
+  </view>
+
+  color
+  <radio-group bindchange="colorChange">
+    <label wx:for="{{colors}}">
+      <radio value="{{item}}" color="{{item}}"></radio>
+      {{item}}
+    </label>
+  </radio-group>

@@ -1,0 +1,17 @@
+<view>
+  <picker mode="selector" range="{{countrys}}" bindchange="selectorChange">
+    <view>当前选择：{{countrys[index]}}</view>
+  </picker>
+</view>
+
+<view>
+  <picker mode="time" start="00:00" end="23:59" value="{{time}}" bindchange="timeChange">
+       <view>当前选择：{{time}}</view>
+  </picker>
+</view>
+
+<view>
+  <picker mode="date" start="2010-01-01" end="2020-12-31" value="{{date}}" bindchange="dateChange">
+       <view>当前选择：{{date}}</view>
+  </picker>
+</view>

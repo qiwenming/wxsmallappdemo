@@ -1,0 +1,38 @@
+Page({
+  data:{
+      percent:0,
+      showInfo:false,
+      activie:false,
+      strokeWidth:6,
+      color:"green",
+      colors: [
+      'red', 'orange', 'yellow', 'green', 'rgb(0,255,255)', 'blue', 'purple'
+    ]
+  },
+  percentChange:function(e){
+      this.setData({
+        percent:e.detail['value']          
+      })
+  },
+   showInfoChange:function(e){
+      this.setData({
+          showInfo:e.detail['value']
+      })
+      console.log(e);
+  },
+   activeChange:function(e){
+      this.setData({
+          active:e.detail['value']
+      })
+  },
+   strokeWidthChange:function(e){
+      this.setData({
+          strokeWidth:e.detail['value']
+      })
+  },
+   colorChange:function(e){
+      this.setData({
+          color:e.detail['value']
+      })
+  }
+})
