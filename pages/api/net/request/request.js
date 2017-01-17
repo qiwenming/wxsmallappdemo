@@ -4,8 +4,9 @@ Page({
     response:'------'
   },
 
-  request:function(){
+  requestWeatcherInfo:function(){
     var that = this;
+    this.showLoadingToast();
     wx.request({
       url: 'http://www.weather.com.cn/data/sk/101010100.html',
       data: {},
@@ -22,6 +23,7 @@ Page({
       },
       complete: function() {
         // complete
+        wx.hideToast();
       }
     })
   },
@@ -50,5 +52,53 @@ Page({
 
     info += '\n rain:' +res.data['weatherinfo']['rain'];
     return info;
+  },
+
+  //显示toast
+  showLoadingToast:function(){
+    wx.showToast({
+      title:'加载中',
+      icon:'loading',
+      duration:10000
+    })
+  },
+   //显示toast
+  showMsgToast:function(msg){
+    wx.showToast({
+      title:msg,
+      duration:3000
+    })
+  },
+  requestLogin:function(){
+    var that = this;
+    this.showLoadingToast();
+    wx.request({
+      url: 'http://api.xxxxxxxxx.com:8020/api/account/Login',
+      data: {
+        UserName:"1000000000",
+        Pwd:"E10XXADXXC3949BA59ABBE56E057F20F883E",
+        AppType:0
+      },
+      method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      header: {
+        "WCA-CLIENT-TYPE":"2",
+        "WCA-CLIENT-VERSION":"1.0"
+      }, // 设置请求的 header
+      success: function(res){
+        console.log(res.data);
+        if(res.data['ResultCode']=='0000'){//登录成功
+
+        }
+        that.showMsgToast(res.data['ResultDesc']);
+      },
+      fail: function() {
+        // fail
+      },
+      complete: function() {
+        // complete
+        // wx.hideToast();
+      }
+    })
   }
+
 })

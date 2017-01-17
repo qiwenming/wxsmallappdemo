@@ -5,13 +5,21 @@ Page({
           id:0,
           title:"网络API列表",
           apis:[
-              {apititle:'request',url:'xxxxx'}
+              {apititle:'request',url:'./net/request/request'},
+              {apititle:'request',url:'./net/request/request'}
+            ]
+        },  
+        {
+          id:1,
+          title:"媒体API列表",
+          apis:[
+              {apititle:'request',url:'./net/request/request'},
             ]
         }
     ]
   },
   bindTap:function(event){
-    console.log();
+    console.log(event);
     wx.navigateTo({
       url: event.currentTarget.dataset['url']
     })

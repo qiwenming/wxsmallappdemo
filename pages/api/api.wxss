@@ -1,10 +1,18 @@
 /* pages/api/api.wxss */
+
+.title{
+    width: 100%;
+    padding-top: 60rpx;
+    padding-bottom: 10rpx;
+    margin-bottom: 10rpx;
+}
+
 button{
-    margin-bottom: 20rpx;
+    margin-bottom: 10rpx;
     color: white;
     background-color: #10AEFF;
 }
 
-:nth-child(2n+1){
+button:nth-child(2n+1){
     background-color: #099907;
 }

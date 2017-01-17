@@ -1,5 +1,7 @@
 
-<button bindtap="request">请求试试</button>
+<button bindtap="requestWeatcherInfo">请求天气试试</button>
+
+<button bindtap="requestLogin">登录</button>
 
 <view>
   {{response}}
