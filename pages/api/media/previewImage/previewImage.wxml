@@ -1,0 +1,2 @@
+<!--pages/api/media/previewImage/previewImage.wxml-->
+<button bindtap="previewImage">预览图片</button>

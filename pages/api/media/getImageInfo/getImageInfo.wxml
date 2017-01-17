@@ -1,0 +1,9 @@
+<!--pages/api/media/getImageInfo/getImageInfo.wxml-->
+<button bindtap="chooseImage">选择需要查看信息的图片</button>
+
+
+<view>width:{{width}}</view>
+<view>height:{{height}}</view>
+<view>path:{{path}}</view>
+
+<image src="{{path}}"></image>

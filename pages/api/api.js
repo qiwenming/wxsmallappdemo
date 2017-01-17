@@ -5,7 +5,6 @@ Page({
           id:0,
           title:"网络API列表",
           apis:[
-              {apititle:'request',url:'./net/request/request'},
               {apititle:'request',url:'./net/request/request'}
             ]
         },  
@@ -13,7 +12,9 @@ Page({
           id:1,
           title:"媒体API列表",
           apis:[
-              {apititle:'request',url:'./net/request/request'},
+               {apititle:'chooseImage',url:'./media/chooseImage/chooseImage'},
+               {apititle:'previewImage',url:'./media/previewImage/previewImage'},
+               {apititle:'getImageInfo',url:'./media/getImageInfo/getImageInfo'},
             ]
         }
     ]

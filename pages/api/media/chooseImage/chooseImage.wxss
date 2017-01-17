@@ -1,0 +1,5 @@
+/* pages/api/net/chooseImage/chooseImage.wxss */
+image{
+    width: 150rpx;
+    height: 150rpx;
+}

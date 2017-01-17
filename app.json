@@ -16,7 +16,10 @@
     "pages/component/map/map",
 
     "pages/api/api",
-    "pages/api/net/request/request"
+    "pages/api/net/request/request",
+    "pages/api/media/chooseImage/chooseImage",
+    "pages/api/media/previewImage/previewImage",
+    "pages/api/media/getImageInfo/getImageInfo"
   ],
   "window":{
     "backgroundTextStyle":"light",

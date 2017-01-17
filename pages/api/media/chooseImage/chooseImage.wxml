@@ -1,0 +1,5 @@
+<button bindtap="chooseImage">选择图片</button>
+
+<block wx:for="{{tempFilePaths}}">
+  <image src="{{item}}"></image>
+</block>
