@@ -1,0 +1,7 @@
+<!--pages/api/location/location/location.wxml-->
+<button bindtap="getLocation">wx.getLocation</button>
+
+<button bindtap="chooseLocation">wx.chooseLocation</button>
+
+<button bindtap="openLocation">wx.openLocation</button>
+

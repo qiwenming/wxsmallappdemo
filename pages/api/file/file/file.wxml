@@ -1,0 +1,17 @@
+<!--pages/api/file/file/file.wxml-->
+<button bindtap="saveFile">保存文件到本地</button>
+<button bindtap="getSavedFileList">获取本地已保存的文件列表</button>
+<button bindtap="getSavedFileInfo">获取本地文件的文件信息</button>
+<button bindtap="removeSavedFile">删除本地存储的文件</button>
+<button bindtap="openDocument">新开页面打开文档，支持格式：doc, xls, ppt, pdf, docx, xlsx, pptx</button>
+
+
+<view>wx.saveFile</view>
+
+<view>wx.getSavedFileList</view>
+
+<view>wx.getSavedFileInfo</view>
+
+<view>wx.removeSavedFile</view>
+
+<view>wx.openDocument</view>

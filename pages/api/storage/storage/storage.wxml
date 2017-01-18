@@ -1,0 +1,19 @@
+
+
+
+<button bindtap="setStorage">wx.setStorage</button>
+<button bindtap="setStorageSync">wx.setStorageSync</button>
+<button bindtap="getStorage">wx.getStorage</button>
+<button bindtap="getStorageSync">wx.getStorageSync</button>
+<button bindtap="getStorageInfo">wx.getStorageInfo</button>
+<button bindtap="getStorageInfoSync">wx.getStorageInfoSync</button>
+<button bindtap="removeStorage">wx.removeStorage</button>
+<button bindtap="removeStorageSync">wx.removeStorageSync</button>
+<button bindtap="clearStorage">wx.clearStorage</button>
+<button bindtap="clearStorageSync">wx.clearStorageSync</button>
+
+<button bindtap="setStorageString">添加测试的字符串</button>
+
+
+
+

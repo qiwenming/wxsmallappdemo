@@ -1,0 +1,2 @@
+<!--pages/api/device/networkType/networkType.wxml-->
+<view>网络状态：{{networkType}}</view>

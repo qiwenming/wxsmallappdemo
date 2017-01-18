@@ -1,0 +1,36 @@
+// pages/api/ui/feedback/feedback.js
+Page({
+  data:{
+    itemList:['杞小明','杞中明','杞大明','杞老明','杞文明','杞明明']
+  },
+  toastTest:function(options){
+    wx.showToast({
+      title:'测试',
+      icon:'success',
+      duration:5000
+    }),
+    setTimeout(function(){
+      wx.hideToast();
+    },2000);
+  },
+  showModal:function(){
+    wx.showModal({
+      title:'showModal测试',
+      content:'showModal测试',
+      showCancel:true,
+      success:function(res){
+        console.log(res.confirm);
+      }
+    })
+  },
+  showActionSheet:function(){
+    var that = this;
+    wx.showActionSheet({
+      itemList:that.data.itemList,
+      itemColor:'#555555',
+      success:function(res){
+        console.log(res.tapIndex);
+      }
+    })
+  }
+})

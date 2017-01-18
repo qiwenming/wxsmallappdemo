@@ -1,0 +1,4 @@
+<!--pages/api/device/makePhoneCall/makePhoneCall.wxml-->
+<input bindinput="bindInput" type="number" placeholder="请输入手机号码" value="{{phone}}"/>
+
+<button bindtap="makePhoneCall">拨打电话</button>

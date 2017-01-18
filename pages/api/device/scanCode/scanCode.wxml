@@ -1,0 +1,4 @@
+<!--pages/api/device/scanCode/scanCode.wxml-->
+查看log
+
+<button bindtap="scanCode">开始扫码</button>

@@ -1,0 +1,2 @@
+<!--pages/api/ui/navigation/navigation/switchTab.wxml-->
+<button bindtap="test">test</button>

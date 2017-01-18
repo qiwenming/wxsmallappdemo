@@ -1,0 +1,21 @@
+{
+    
+    "tabBar": {
+      "list": [{
+        "pagePath": "../../animation/animation",
+        "text": "动画"
+      },
+      {
+        "pagePath": "../../feedback/feedback",
+        "text": "反馈"
+      },
+      {
+        "pagePath": "../../navigationbar/navigationbar",
+        "text": "导航条"
+      },
+      {
+        "pagePath": "../../refresh/refresh",
+        "text": "下拉刷新"
+      }]
+    }
+}

@@ -19,7 +19,25 @@
     "pages/api/net/request/request",
     "pages/api/media/chooseImage/chooseImage",
     "pages/api/media/previewImage/previewImage",
-    "pages/api/media/getImageInfo/getImageInfo"
+    "pages/api/media/getImageInfo/getImageInfo",
+    "pages/api/media/record/record",
+    "pages/api/media/voice/voice",
+    "pages/api/file/file/file",
+    "pages/api/storage/storage/storage",
+    "pages/api/location/location/location",
+    "pages/api/location/map/map",
+    "pages/api/device/systemInfo/systemInfo",
+    "pages/api/device/networkType/networkType",
+    "pages/api/device/accelerometer/accelerometer",
+    "pages/api/device/compass/compass",
+    "pages/api/device/makePhoneCall/makePhoneCall",
+    "pages/api/ui/feedback/feedback",
+    "pages/api/ui/navigationbar/navigationbar",
+    "pages/api/ui/navigation/navigation",
+    "pages/api/ui/navigation/switchTab/switchTab",
+    "pages/api/ui/animation/animation",
+
+    "pages/api/ui/refresh/refresh"
   ],
   "window":{
     "backgroundTextStyle":"light",

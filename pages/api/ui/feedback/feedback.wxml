@@ -1,0 +1,7 @@
+<!--pages/api/ui/feedback/feedback.wxml-->
+
+<button bindtap="toastTest">Toast测试</button>
+
+<button bindtap="showModal">wx.showModal</button>
+
+<button bindtap="showActionSheet">wx.showActionSheet</button>

@@ -1,0 +1,3 @@
+<!--pages/api/media/record/record.wxml-->
+<button bindtap="startRecord">开始录音</button>
+<button bindtap="stopRecord">停止录音</button>

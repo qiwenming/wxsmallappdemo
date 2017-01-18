@@ -1,0 +1,4 @@
+<!--pages/api/media/voice/voice.wxml-->
+<button bindtap="play">播放</button>
+<button bindtap="pause">暂停</button>
+<button bindtap="play">结束</button>

@@ -1,0 +1,4 @@
+<!--pages/api/device/systemInfo/systemInfo.wxml-->
+<block wx:for="{{infos}}">
+  <view>{{item.title}}:{{item.value}}</view>
+</block>

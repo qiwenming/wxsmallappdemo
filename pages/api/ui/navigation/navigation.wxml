@@ -1,0 +1,8 @@
+<!--pages/api/ui/navigation/navigation.wxml-->
+<button bindtap="navigateTo">wx.navigateTo</button>
+
+<button bindtap="redirectTo">wx.redirectTo</button>
+
+<button bindtap="switchTab">wx.switchTab</button>
+
+<button bindtap="navigateBack">wx.navigateBack</button>

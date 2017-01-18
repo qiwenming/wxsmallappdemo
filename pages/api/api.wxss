@@ -4,15 +4,28 @@
     width: 100%;
     padding-top: 60rpx;
     padding-bottom: 10rpx;
-    margin-bottom: 10rpx;
+}
+.sonTitle{
+    width: 100%;
+    margin-left: 20rpx;
+    padding-bottom: 10rpx;
 }
 
+
 button{
+    margin-left: 40rpx;
     margin-bottom: 10rpx;
+    margin-right: 40rpx;
     color: white;
     background-color: #10AEFF;
 }
 
 button:nth-child(2n+1){
     background-color: #099907;
+}
+
+.diving{
+    width: 100%;
+    height: 1rpx;
+    background: #cccccc;
 }

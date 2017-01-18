@@ -1,0 +1,8 @@
+<!--pages/api/ui/navigationbar/navigationbar.wxml-->
+<button bindtap="setNavigationBarTitle">wx.setNavigationBarTitle</button>
+
+<button bindtap="showNavigationBarLoading">wx.showNavigationBarLoading</button>
+
+<button bindtap="hideNavigationBarLoading">wx.hideNavigationBarLoading</button>
+
+
